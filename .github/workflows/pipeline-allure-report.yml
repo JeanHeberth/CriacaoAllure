@@ -16,7 +16,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '17'
-        distribution: 'correto'
+        distribution: 'zulu'
         
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
@@ -39,7 +39,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'
-          distribution: 'correto'
+          distribution: 'zulu'
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
